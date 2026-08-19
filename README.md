@@ -36,8 +36,7 @@ The project has two halves:
 5. Screenshot: saves a PNG of the current frame; Save: stores the current
    formulas + parameters + a thumbnail to the Gallery below. Click a saved card to see the track and parameters used, or choose "+ Add to visualizer" to restore it.
 
-> No music to hand? `music-test/` holds one track, so the app can be tried without
-> supplying your own.
+>  `music-test/` holds a couple of tracks, so the app can be tried if you don't have any music to hand.
 
 ![The controls panel and the visual output: a Chladni plate driven by a 129 BPM track](docs/screenshot.png)
 
