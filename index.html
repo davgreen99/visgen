@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap" rel="stylesheet">
+    <title>Visgen — AI Music Visualizer</title>
+    <link rel="stylesheet" href="static/css/index-style.css">
+</head>
+<body>
+
+    <!-- Full-screen visual, becomes the page background while playing -->
+    <div id="visual-bg" class="visual-bg" aria-hidden="true"></div>
+
+    <!-- Download-as-video confirmation modal -->
+    <div class="modal" id="download-modal" hidden>
+        <div class="modal-card">
+            <h3 class="modal-title">Download as video?</h3>
+            <p class="modal-body">The whole track will be rendered with your current selection,
+                colours and settings. The result is a video file:
+                your choices are baked in and <strong>cannot be edited afterwards</strong>.</p>
+            <div class="modal-actions">
+                <button class="btn btn--ghost" data-modal="cancel">Cancel</button>
+                <button class="btn btn--accent" data-modal="confirm">→ Render &amp; download</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Render progress banner -->
+    <div class="render-banner" id="render-banner" hidden>
+        <span class="render-banner-dot"></span>
+        <span class="render-banner-text">Preparing…</span>
+        <button class="btn btn--ghost btn--sm" id="render-cancel">Cancel</button>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="nav">
+        <div class="nav-container">
+            <a href="#" class="nav-brand">
+                <div>
+                    <span class="nav-brand-name">VISGEN</span>
+                    <span class="nav-brand-sub">AI Music Visualizer</span>
+                </div>
+            </a>
+
+            <div class="nav-links">
+                <a href="#app" class="nav-link">Visualizer</a>
+                <a href="#how-it-works" class="nav-link">How it works</a>
+                <a href="#features" class="nav-link">Features</a>
+                <a href="#gallery" class="nav-link">Gallery</a>
+            </div>
+
+            <div class="nav-actions">
+                <a href="#app" class="btn btn--accent">+ Visualize a track</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero -->
+    <section class="hero">
+        <div class="hero-container">
+            <h1 class="hero-heading">Visualize the music<br>you love</h1>
+            <p class="hero-sub">
+             Upload a track and a neural network learns about your musical choice.
+             The AI model listens to the music and through 7 mathematical renderers creates unique artworks.
+            </p>
+        </div>
+
+        <div class="hero-marquee" aria-hidden="true">
+            <div class="hero-marquee-track">
+                <span>FREQUENCY ANALYSIS</span><span class="dot">·</span>
+                <span>TEMPO MAPPING</span><span class="dot">·</span>
+                <span>MOOD DETECTION</span><span class="dot">·</span>
+                <span>AI VISUAL SYNTHESIS</span><span class="dot">·</span>
+                <span>WAVEFORM VISUALIZATION</span><span class="dot">·</span>
+                <span>SPECTRAL ANALYSIS</span><span class="dot">·</span>
+                <span>BEAT DETECTION</span><span class="dot">·</span>
+                <span>STRUCTURAL SEGMENTATION</span><span class="dot">·</span>
+                <!-- duplicate for seamless loop -->
+                <span>FREQUENCY ANALYSIS</span><span class="dot">·</span>
+                <span>TEMPO MAPPING</span><span class="dot">·</span>
+                <span>MOOD DETECTION</span><span class="dot">·</span>
+                <span>AI VISUAL SYNTHESIS</span><span class="dot">·</span>
+                <span>WAVEFORM VISUALIZATION</span><span class="dot">·</span>
+                <span>SPECTRAL ANALYSIS</span><span class="dot">·</span>
+                <span>BEAT DETECTION</span><span class="dot">·</span>
+                <span>STRUCTURAL SEGMENTATION</span><span class="dot">·</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Main App -->
+    <section id="app" class="app">
+        <div class="app-container">
+
+            <!-- Top row: Upload + Waveform -->
+            <div class="app-upload">
+                <div class="upload-zone">
+                    <span class="upload-zone-ring" aria-hidden="true"></span>
+                    <p class="upload-zone-title">Drop your track here</p>
+                    <p class="upload-zone-sub">or click to browse</p>
+                    <p class="upload-zone-formats">MP3 · WAV · FLAC · AAC — up to 50 MB</p>
+                    <button class="btn btn--accent btn--sm">+ Choose file</button>
+                </div>
+
+                <div class="track-card">
+                    <!-- Waveform bars - app.js -->
+                    <div class="waveform"></div>
+                    <div class="track-card-progress">
+                        <div class="progress-bar">
+                            <div class="progress-bar-fill"></div>
+                            <div class="progress-bar-head"></div>
+                        </div>
+                    </div>
+                    <div class="track-card-meta">
+                        <!-- Material Symbols play/pause paths -->
+                        <button class="play-btn" title="Play / Pause" disabled>
+                            <svg class="play-btn-icon play-btn-icon--play" viewBox="0 -960 960 960" aria-hidden="true">
+                                <path d="M320-200v-560l440 280-440 280Zm80-280Zm0 134 210-134-210-134v268Z"/>
+                            </svg>
+                            <svg class="play-btn-icon play-btn-icon--pause" viewBox="0 -960 960 960" aria-hidden="true">
+                                <path d="M520-200v-560h240v560H520Zm-320 0v-560h240v560H200Zm400-80h80v-400h-80v400Zm-320 0h80v-400h-80v400Zm0-400v400-400Zm320 0v400-400Z"/>
+                            </svg>
+                        </button>
+                        <span class="track-card-name">No track loaded</span>
+                        <span class="track-card-time">
+                            <span class="track-card-current">0:00</span>
+                            <span class="track-card-sep">/</span>
+                            <span class="track-card-duration">0:00</span>
+                        </span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Controls -->
+            <aside class="app-controls controls">
+                <h3 class="controls-heading">Visual Parameters</h3>
+
+                <div class="controls-body">
+                    <!-- Column 1 - layers, formula, colours -->
+                    <div class="controls-col">
+                    <div class="controls-group controls-group--row">
+                        <label class="controls-label" for="layers-toggle">Combine Layers</label>
+                        <div class="toggle">
+                            <input type="checkbox" id="layers-toggle" class="toggle-input">
+                            <label for="layers-toggle" class="toggle-track"></label>
+                        </div>
+                    </div>
+
+                    <div class="controls-group" data-control="layers">
+                        <label class="controls-label">Layers</label>
+                        <div class="controls-options controls-layers"></div>
+                        <button class="option-btn controls-add-layer" type="button">+ Add Layer</button>
+                    </div>
+
+                    <div class="controls-group" data-control="style">
+                        <label class="controls-label">Formula <span class="controls-hint">(active layer)</span></label>
+                        <div class="controls-options">
+                            <button class="option-btn option-btn--active" data-value="harmonograph">Harmonograph</button>
+                            <button class="option-btn" data-value="chladni">Chladni</button>
+                            <button class="option-btn" data-value="dejong">de Jong</button>
+                            <button class="option-btn" data-value="waveform">Waveform</button>
+                            <button class="option-btn" data-value="lorenz">Lorenz</button>
+                            <button class="option-btn" data-value="thomas">Thomas</button>
+                            <button class="option-btn" data-value="aizawa">Aizawa</button>
+                        </div>
+                    </div>
+
+                    <div class="controls-group" data-control="palette">
+                        <label class="controls-label">Colors <span class="controls-hint">(active layer)</span></label>
+                        <div class="controls-options">
+                            <button class="option-btn" data-value="auto">Auto (AI)</button>
+                            <button class="option-btn" data-value="warm">Warm</button>
+                            <button class="option-btn" data-value="cool">Cool</button>
+                            <button class="option-btn" data-value="mono">Mono</button>
+                        </div>
+                        <!-- Per-layer colour pickers - app.js -->
+                        <div class="controls-swatches"></div>
+                    </div>
+
+                    <div class="controls-group controls-group--row">
+                        <label class="controls-label" for="reactive">Audio Reactive</label>
+                        <div class="toggle">
+                            <input type="checkbox" id="reactive" class="toggle-input" checked>
+                            <label for="reactive" class="toggle-track"></label>
+                        </div>
+                    </div>
+
+                    </div>
+
+                    <!-- Column 2 - per-formula sliders -->
+                    <div class="controls-col controls-col--params">
+                        <h4 class="controls-subheading">Parameters <span class="controls-hint">(active layer)</span></h4>
+                        <!-- Per-formula sliders - app.js -->
+                        <div class="controls-params" data-control="params"></div>
+                    </div>
+                </div>
+
+                <button class="btn btn--accent btn--full">→ Generate Visual</button>
+            </aside>
+
+            <!-- Canvas output -->
+            <div class="app-canvas canvas-panel">
+                <div class="canvas-panel-header">
+                    <span class="canvas-panel-title">Visual Output</span>
+                    <div class="canvas-panel-actions">
+                        <button class="icon-btn" title="Fullscreen">⛶</button>
+                        <button class="icon-btn" title="Screenshot" aria-label="Screenshot">
+                            <svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M4 8h3l1.5-2h7L17 8h3v11H4z"/>
+                                <circle cx="12" cy="13" r="3.2"/>
+                            </svg>
+                        </button>
+                        <button class="icon-btn" title="Download">↓</button>
+                        <button class="icon-btn" title="Share">↗</button>
+                    </div>
+                </div>
+
+                <div class="canvas-panel-display">
+                    <div class="canvas-empty">
+                        <span class="canvas-empty-icon">◈</span>
+                        <p class="canvas-empty-text">Upload a track to generate a visual</p>
+                        <p class="canvas-empty-hint">Your AI-generated visual will appear here</p>
+                    </div>
+                </div>
+
+                <div class="canvas-panel-footer">
+                    <div class="analysis-chips">
+                        <span class="chip">BPM: —</span>
+                        <span class="chip">Key: —</span>
+                        <span class="chip">Mood: —</span>
+                        <span class="chip">Energy: —</span>
+                        <span class="chip">Timbre: —</span>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- How It Works -->
+    <section id="how-it-works" class="section">
+        <div class="section-container">
+            <span class="section-tag">Process</span>
+            <h2 class="section-heading">How it works</h2>
+            <div class="steps">
+                <div class="step">
+                    <span class="step-num">01</span>
+                    <h3 class="step-title">Upload your track</h3>
+                    <p class="step-body">
+                        Drop in any audio file — MP3, WAV, FLAC or AAC, up to 50 MB.
+                    </p>
+                </div>
+                <div class="step">
+                    <span class="step-num">02</span>
+                    <h3 class="step-title">The model listens</h3>
+                    <p class="step-body">
+                        Your track becomes a mel spectrogram; a picture of how its energy
+                        is spread across pitch and time. A network reads it, trained from scratch on more than 2,000 tracks.
+                    </p>
+                </div>
+                <div class="step">
+                    <span class="step-num">03</span>
+                    <h3 class="step-title">Nine decisions</h3>
+                    <p class="step-body">
+                        The network returns decisions for which formula to draw, mood, energy,
+                        valence, arousal colour temperature, complexity, motion and brightness.
+                        All of which you can configure with set sliders.
+                    </p>
+                </div>
+                <div class="step">
+                    <span class="step-num">04</span>
+                    <h3 class="step-title">Export &amp; share</h3>
+                    <p class="step-body">
+                        The exporter re-renders offline on a fixed clock, so the video matches what
+                        you saw frame for frame. Encoding happens on your GPU, the audio never leaves your browser.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features -->
+    <section id="features" class="section section--alt">
+        <div class="section-container">
+            <span class="section-tag">Features</span>
+            <h2 class="section-heading">What the AI sees</h2>
+            <div class="features">
+
+                <div class="feature-card">
+                    <span class="feature-card-icon">〜</span>
+                    <h3 class="feature-card-title">Frequency &amp; Spectrum</h3>
+                    <p class="feature-card-body">
+                        The live analyser splits playback into bass, mid and treble. Each formula maps those
+                        bands onto its own parameters, so the figure moves with what you are actually hearing.
+                    </p>
+                </div>
+
+                <div class="feature-card">
+                    <span class="feature-card-icon">◎</span>
+                    <h3 class="feature-card-title">Tempo &amp; Beat Grid</h3>
+                    <p class="feature-card-body">
+                        Beats are tracked into a grid before playback starts, and each impulse fires against your
+                        position in the track rather than a smoothed level meter, allowing fast music stays crisp 
+                        instead of lagging.
+                    </p>
+                </div>
+
+                <div class="feature-card">
+                    <span class="feature-card-icon">◇</span>
+                    <h3 class="feature-card-title">Valence &amp; Arousal</h3>
+                    <p class="feature-card-body">
+                        These two outputs learned from 1,802 tracks rated by human listeners: valence sets hue and
+                        lightness; arousal sets saturation.
+                    </p>
+                </div>
+
+                <div class="feature-card">
+                    <span class="feature-card-icon">⬡</span>
+                    <h3 class="feature-card-title">Structure &amp; Sections</h3>
+                    <p class="feature-card-body">
+                        Self-similarity analysis finds where a track stops resembling itself: intro, breakdown,
+                        drop. The figure re-forms at every boundary instead of holding one shape for several minutes.
+                    </p>
+                </div>
+
+                <div class="feature-card">
+                    <span class="feature-card-icon">▲</span>
+                    <h3 class="feature-card-title">Formula Choice</h3>
+                    <p class="feature-card-body">
+                        The model's style output is the name of a renderer, meaning its prediction is the visual:
+                        harmonograph, Chladni plate, de Jong, waveform, Lorenz, Thomas or Aizawa.
+                    </p>
+                </div>
+
+                <div class="feature-card">
+                    <span class="feature-card-icon">✦</span>
+                    <h3 class="feature-card-title">Key, Tempo &amp; Timbre</h3>
+                    <p class="feature-card-body">
+                        Musical key by chroma correlation, BPM, and timbre brightness from the track's MFCCs,
+                        measured on every upload and reported alongside the visual.
+                    </p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Teaser -->
+    <section id="gallery" class="section">
+        <div class="section-container">
+            <span class="section-tag">Gallery</span>
+            <h2 class="section-heading">Created with Visgen</h2>
+            <div class="gallery">
+                <div class="gallery-item gallery-item--tall">
+                    <div class="gallery-placeholder"></div>
+                    <div class="gallery-overlay">
+                        <span class="gallery-track">Track title — Artist</span>
+                        <span class="gallery-style">Cylinders · Warm</span>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <div class="gallery-placeholder"></div>
+                    <div class="gallery-overlay">
+                        <span class="gallery-track">Track title — Artist</span>
+                        <span class="gallery-style">Geometric · Cool</span>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <div class="gallery-placeholder"></div>
+                    <div class="gallery-overlay">
+                        <span class="gallery-track">Track title — Artist</span>
+                        <span class="gallery-style">Fractal · Mono</span>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <div class="gallery-placeholder"></div>
+                    <div class="gallery-overlay">
+                        <span class="gallery-track">Track title — Artist</span>
+                        <span class="gallery-style">Waveform · Auto</span>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <div class="gallery-placeholder"></div>
+                    <div class="gallery-overlay">
+                        <span class="gallery-track">Track title — Artist</span>
+                        <span class="gallery-style">Cylinders · Cool</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-brand">
+                <span class="footer-logo">VISGEN</span>
+                <p class="footer-tagline">AI-powered music visualization</p>
+            </div>
+            <nav class="footer-links">
+                <a href="#" class="footer-link">Privacy</a>
+                <a href="#" class="footer-link">Terms</a>
+                <a href="#" class="footer-link">Contact</a>
+                <a href="#" class="footer-link">Instagram</a>
+            </nav>
+            <p class="footer-copy">© 2026 Visgen. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/three@0.128.0/examples/js/shaders/CopyShader.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/three@0.128.0/examples/js/shaders/LuminosityHighPassShader.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/three@0.128.0/examples/js/postprocessing/EffectComposer.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/three@0.128.0/examples/js/postprocessing/RenderPass.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/three@0.128.0/examples/js/postprocessing/ShaderPass.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/three@0.128.0/examples/js/postprocessing/UnrealBloomPass.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjs/12.4.3/math.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/mp4-muxer@5.2.1/build/mp4-muxer.min.js"></script>
+    <script type="module" src="static/js/app.js"></script>
+</body>
+</html>

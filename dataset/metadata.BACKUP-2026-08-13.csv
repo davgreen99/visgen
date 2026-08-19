@@ -1,0 +1,385 @@
+filename,genre,mood,energy,valence,arousal,color_temperature,complexity,motion_speed,style,brightness,label_source
+example_edm_track.wav,electronic,energetic,0.85,0.72,0.88,0.8,0.7,0.9,aizawa,0.75,bootstrap
+example_piano_ballad.wav,classical,calm,0.25,0.55,0.2,0.35,0.4,0.15,waveform,0.3,bootstrap
+example_metal_riff.wav,rock,aggressive,0.92,0.3,0.95,0.6,0.85,0.88,thomas,0.65,bootstrap
+example_jazz_trio.wav,jazz,calm,0.4,0.65,0.35,0.5,0.55,0.3,dejong,0.5,bootstrap
+example_hiphop_beat.wav,hiphop,energetic,0.7,0.6,0.75,0.7,0.6,0.7,thomas,0.55,bootstrap
+example_ambient_pad.wav,ambient,melancholic,0.15,0.35,0.1,0.2,0.3,0.08,waveform,0.2,bootstrap
+(A1) - All Automatic.mp3,unknown,energetic,1.0,0.677,0.613,0.512,0.719,0.681,lorenz,0.347,bootstrap
+(A2) - Double Postpone.mp3,unknown,neutral,1.0,0.339,0.547,0.407,1.0,0.541,chladni,0.474,bootstrap
+(B1) - Exomove.mp3,unknown,neutral,0.696,0.46,0.669,0.523,1.0,0.697,thomas,0.586,bootstrap
+(BAP064b1) Palermo Disco Squad - Sicilian Nights '16.mp3,unknown,aggressive,1.0,0.371,0.614,0.309,0.709,0.718,lorenz,0.247,bootstrap
+01 - Dark Matter.mp3,unknown,calm,0.309,0.629,0.46,0.5,0.714,0.503,chladni,0.371,bootstrap
+01 - Digital Tsunami.mp3,unknown,neutral,1.0,0.35,0.562,0.418,0.818,0.557,chladni,0.486,bootstrap
+01 - Endless Journey.mp3,unknown,neutral,1.0,0.425,0.682,0.374,0.69,0.788,lorenz,0.322,bootstrap
+01 - Five Years.mp3,unknown,calm,0.159,0.655,0.463,0.59,0.559,0.463,dejong,0.525,bootstrap
+01 - Plant43 - Halflight - 2013.mp3,unknown,energetic,1.0,0.798,0.756,0.706,1.0,0.788,thomas,0.615,bootstrap
+01 - Secret State - CIA UFO Google Search.flac,unknown,energetic,1.0,0.716,0.674,0.502,0.673,0.788,lorenz,0.289,bootstrap
+01 - War Pigs.mp3,unknown,energetic,1.0,0.701,0.637,0.571,1.0,0.681,thomas,0.441,bootstrap
+01 - helena hauff - nothing is what i know.mp3,unknown,neutral,1.0,0.461,0.714,0.491,0.733,0.762,thomas,0.52,bootstrap
+01 -juanita kiteless to dream of love.mp3,unknown,neutral,0.415,0.341,0.487,0.369,0.468,0.524,chladni,0.398,bootstrap
+01 Apparatus.mp3,unknown,neutral,1.0,0.373,0.579,0.499,1.0,0.533,dejong,0.624,bootstrap
+01 Der Klang der Familie.mp3,unknown,neutral,0.634,0.515,0.711,0.685,1.0,0.665,aizawa,0.855,bootstrap
+01 EQD#010A.mp3,unknown,energetic,1.0,0.722,0.686,0.489,0.609,0.817,lorenz,0.256,bootstrap
+01 Move.flac,unknown,neutral,0.609,0.583,0.429,0.492,0.685,0.426,chladni,0.401,bootstrap
+01 Muschi Muschi.mp3,unknown,neutral,1.0,0.467,0.744,0.384,0.704,0.883,lorenz,0.301,bootstrap
+01 Packed Like Sardines In A Crushed.mp3,unknown,neutral,0.66,0.544,0.395,0.398,0.688,0.428,chladni,0.252,bootstrap
+01 Sudan Sedan.mp3,unknown,neutral,1.0,0.419,0.683,0.331,0.622,0.817,lorenz,0.244,bootstrap
+01 Vainquer - Lyot (Maurizo Mix).mp3,unknown,calm,0.79,0.687,0.572,0.666,1.0,0.53,dejong,0.646,bootstrap
+01-04. Pollon - Lost Souls.mp3,unknown,neutral,0.928,0.409,0.658,0.334,0.861,0.781,lorenz,0.259,bootstrap
+01-Beach of Rain.mp3,unknown,energetic,0.899,0.682,0.625,0.429,0.569,0.766,lorenz,0.175,bootstrap
+01-Shlomi Aber & Kashpitzky-By Myself_(www.electrobuzz.pro).mp3,unknown,energetic,1.0,0.697,0.667,0.395,0.558,0.848,lorenz,0.093,bootstrap
+01-blanka-la_buena_suerte.mp3,unknown,neutral,1.0,0.268,0.476,0.229,0.624,0.541,chladni,0.19,bootstrap
+01-deas-red_source_(original_mix).mp3,unknown,neutral,1.0,0.403,0.661,0.319,0.606,0.788,lorenz,0.236,bootstrap
+01-december-an_accident_in_favor_of_human_life_(original_mix).mp3,unknown,energetic,1.0,0.792,0.762,0.632,0.887,0.848,thomas,0.472,bootstrap
+01-dj_europarking_x_dollkraut--boompahpah-4ba1dca5.mp3,unknown,neutral,1.0,0.339,0.557,0.362,0.854,0.586,chladni,0.385,bootstrap
+01-dj_savage-prosperidad-c58d4eb7.mp3,unknown,energetic,1.0,0.786,0.749,0.649,0.85,0.817,thomas,0.511,bootstrap
+01-joshua_calleja--blonde_dimension-eb00930f.mp3,unknown,energetic,1.0,0.719,0.682,0.481,0.588,0.817,lorenz,0.243,bootstrap
+01-keepsakes-dog_anonymous_fluid.mp3,unknown,neutral,1.0,0.439,0.709,0.35,0.613,0.848,lorenz,0.261,bootstrap
+01-regent-oil_rigger.mp3,unknown,neutral,1.0,0.428,0.697,0.321,0.584,0.848,lorenz,0.214,bootstrap
+01-taube-higher_purpose.mp3,unknown,neutral,1.0,0.465,0.734,0.413,0.673,0.848,lorenz,0.361,bootstrap
+01-vainquer_-_lyot_(maurizo_mix).mp3,unknown,calm,0.78,0.687,0.57,0.67,1.0,0.525,dejong,0.654,bootstrap
+01. Esoterik - Mayhem.mp3,unknown,energetic,1.0,0.722,0.692,0.457,0.616,0.848,lorenz,0.193,bootstrap
+01. Leinad - From Skimask 2 Facemask (Calling Pablo Remix).flac,unknown,energetic,1.0,0.746,0.716,0.517,0.847,0.848,lorenz,0.289,bootstrap
+01. Nasty Habits - Shadow Boxing (Om Unit Remix).mp3,unknown,calm,0.394,0.738,0.56,0.869,1.0,0.415,dejong,1.0,bootstrap
+01_3_phase_feat._dr.motte_-_der_klang_der_familie-drum.mp3,unknown,neutral,0.284,0.41,0.536,0.563,1.0,0.49,dejong,0.715,bootstrap
+01_Nasty (Feat. DJ Fuckoff).mp3,unknown,neutral,1.0,0.354,0.562,0.444,0.846,0.541,dejong,0.533,bootstrap
+02 - Loner.mp3,unknown,neutral,1.0,0.434,0.673,0.486,1.0,0.699,thomas,0.537,bootstrap
+02 - Soul Love.mp3,unknown,neutral,0.388,0.563,0.352,0.595,0.866,0.251,dejong,0.627,bootstrap
+02 - Strange Signals.mp3,unknown,neutral,1.0,0.506,0.769,0.548,1.0,0.817,thomas,0.59,bootstrap
+02 Don't Laugh (Live Raw Mix).mp3,unknown,neutral,0.884,0.351,0.586,0.236,0.519,0.73,chladni,0.121,bootstrap
+02 Doschitai.mp3,unknown,neutral,1.0,0.501,0.759,0.565,1.0,0.788,thomas,0.628,bootstrap
+02 Drugs Work.mp3,unknown,neutral,0.459,0.385,0.562,0.357,0.66,0.652,chladni,0.329,bootstrap
+02 Jeru.flac,unknown,neutral,0.746,0.592,0.465,0.46,0.65,0.494,chladni,0.328,bootstrap
+02 Pulse Versus 3 Phase - Das Rennen.mp3,unknown,energetic,0.467,0.752,0.646,0.594,0.669,0.734,thomas,0.435,bootstrap
+02 Pyramid.mp3,unknown,neutral,0.912,0.239,0.428,0.199,0.637,0.489,chladni,0.159,bootstrap
+02-Questioning Reality.mp3,unknown,aggressive,1.0,0.37,0.634,0.209,0.53,0.817,lorenz,0.048,bootstrap
+02-arkan--kyrylivska_41-15faa466.mp3,unknown,energetic,1.0,0.726,0.689,0.498,0.609,0.817,lorenz,0.271,bootstrap
+02-augusto_taito-moments_of_truth.mp3,unknown,aggressive,1.0,0.358,0.602,0.277,0.584,0.718,lorenz,0.196,bootstrap
+02-bipolar_state_and_pacific_state-lunar__kaiser_remix.mp3,unknown,neutral,1.0,0.427,0.69,0.35,0.62,0.817,lorenz,0.273,bootstrap
+02-blawan-lox.mp3,unknown,neutral,1.0,0.306,0.533,0.23,0.594,0.635,chladni,0.154,bootstrap
+02-december-no_photographs_and_only_memories_(original_mix).mp3,unknown,neutral,0.667,0.456,0.659,0.525,1.0,0.682,thomas,0.594,bootstrap
+02-endlec-clockmaker.mp3,unknown,energetic,1.0,0.757,0.727,0.545,0.692,0.848,lorenz,0.332,bootstrap
+02-falling_apart--third_fragment-dh.mp3,unknown,neutral,1.0,0.416,0.673,0.351,0.594,0.788,lorenz,0.286,bootstrap
+02-joshua_calleja--blonde_dimension_(jason_patrick_x_mike_derer_remix)-78fc240c.mp3,unknown,aggressive,1.0,0.381,0.644,0.235,0.553,0.817,lorenz,0.089,bootstrap
+02-kriz-power_of_the_prophet.mp3,unknown,energetic,1.0,0.715,0.678,0.471,0.612,0.817,lorenz,0.227,bootstrap
+02-len_faki-temple.mp3,unknown,aggressive,1.0,0.37,0.628,0.238,0.554,0.788,lorenz,0.105,bootstrap
+02-radiation_30376_-_nietoperz-tr.mp3,unknown,calm,0.667,0.625,0.516,0.407,0.46,0.622,chladni,0.188,bootstrap
+02-swooh--freaky_fight-aaf2fdf0.mp3,unknown,neutral,0.878,0.424,0.617,0.622,1.0,0.525,aizawa,0.82,bootstrap
+02-unklevon-san_telmo_(dubmix).mp3,unknown,neutral,1.0,0.356,0.564,0.449,0.87,0.541,dejong,0.543,bootstrap
+02. Marcelus - Y02.mp3,unknown,neutral,1.0,0.417,0.674,0.353,0.651,0.788,lorenz,0.29,bootstrap
+02. Mononom - Shrinking.mp3,unknown,neutral,1.0,0.336,0.552,0.364,0.615,0.576,chladni,0.393,bootstrap
+02_Overwatch.mp3,unknown,neutral,1.0,0.489,0.729,0.624,1.0,0.699,aizawa,0.758,bootstrap
+02_system_01_-_drugs_work-drum.mp3,unknown,neutral,0.246,0.355,0.504,0.288,0.543,0.623,chladni,0.222,bootstrap
+03 - Bass Freak.mp3,unknown,neutral,1.0,0.427,0.635,0.626,1.0,0.541,aizawa,0.825,bootstrap
+03 - Black Sabbath.mp3,unknown,calm,0.568,0.699,0.556,0.702,1.0,0.502,dejong,0.706,bootstrap
+03 - Moonage Daydream.mp3,unknown,energetic,0.565,0.745,0.628,0.689,1.0,0.631,thomas,0.633,bootstrap
+03 Moon Dreams.flac,unknown,neutral,0.715,0.535,0.393,0.375,0.591,0.434,chladni,0.214,bootstrap
+03 Panagoi.mp3,unknown,energetic,0.852,0.806,0.769,0.605,1.0,0.894,thomas,0.405,bootstrap
+03 Push Pull Revolving Doors.mp3,unknown,neutral,1.0,0.429,0.687,0.384,0.801,0.788,lorenz,0.339,bootstrap
+03 Return and Revenge of Gatorade (Tanith Mix).mp3,unknown,energetic,1.0,0.729,0.686,0.533,0.564,0.788,lorenz,0.338,bootstrap
+03-Geotropism.mp3,unknown,aggressive,1.0,0.38,0.643,0.234,0.556,0.817,lorenz,0.087,bootstrap
+03-altinbas-tenacity.mp3,unknown,neutral,1.0,0.239,0.447,0.156,0.542,0.541,chladni,0.073,bootstrap
+03-cirkle-machina.mp3,unknown,neutral,1.0,0.434,0.704,0.338,0.618,0.848,lorenz,0.241,bootstrap
+03-dj_hell_-_red_bull.mp3,unknown,neutral,0.531,0.363,0.532,0.378,0.648,0.582,chladni,0.393,bootstrap
+03-endlec-station_zero.mp3,unknown,neutral,1.0,0.451,0.714,0.41,0.62,0.817,lorenz,0.369,bootstrap
+03-samuli_kemppi--anticipation-b2e5ae78.mp3,unknown,energetic,1.0,0.673,0.631,0.395,0.571,0.788,lorenz,0.117,bootstrap
+03-slone--slone_(ghost)-999a68ce.mp3,unknown,aggressive,1.0,0.359,0.603,0.28,0.568,0.718,lorenz,0.201,bootstrap
+03-zisko-be_free_this_time.mp3,unknown,neutral,1.0,0.44,0.71,0.351,0.605,0.848,lorenz,0.263,bootstrap
+03. Jaquarius - Metamine.mp3,unknown,calm,1.0,0.62,0.538,0.465,0.815,0.586,chladni,0.309,bootstrap
+03. Phara - Evoke (Original Mix).mp3,unknown,neutral,1.0,0.424,0.688,0.344,0.597,0.817,lorenz,0.264,bootstrap
+03_Chase Across The Bridge.mp3,unknown,neutral,1.0,0.457,0.721,0.427,0.992,0.817,lorenz,0.396,bootstrap
+04 - Changa.mp3,unknown,aggressive,1.0,0.394,0.658,0.269,0.573,0.817,lorenz,0.144,bootstrap
+04 - Methademic.mp3,unknown,neutral,1.0,0.375,0.588,0.47,1.0,0.567,dejong,0.565,bootstrap
+04 - N.I.T.N.T.mp3,unknown,neutral,1.0,0.362,0.57,0.464,1.0,0.541,dejong,0.566,bootstrap
+04 - Starman.mp3,unknown,neutral,0.434,0.598,0.415,0.573,0.661,0.366,dejong,0.549,bootstrap
+04 -rowla.mp3,unknown,neutral,0.21,0.531,0.313,0.445,0.337,0.304,waveform,0.359,bootstrap
+04 Electro Raw.mp3,unknown,calm,0.504,0.716,0.574,0.699,1.0,0.54,dejong,0.683,bootstrap
+04 San Telmo.mp3,unknown,neutral,1.0,0.453,0.696,0.514,1.0,0.718,thomas,0.575,bootstrap
+04 Teka.mp3,unknown,neutral,1.0,0.46,0.729,0.401,0.757,0.848,lorenz,0.342,bootstrap
+04 Venus De Milo.flac,unknown,neutral,0.927,0.471,0.741,0.384,0.737,0.886,lorenz,0.296,bootstrap
+04 You And Whose Army.mp3,unknown,melancholic,0.805,0.218,0.387,0.182,0.582,0.443,chladni,0.146,bootstrap
+04-Nebula.mp3,unknown,aggressive,1.0,0.39,0.659,0.226,0.55,0.848,lorenz,0.062,bootstrap
+04-dave_the_drummer_-_hydraulix_13.8_jeff_amadeus_and_dave_the_drummer_remix.mp3,unknown,neutral,1.0,0.44,0.709,0.351,0.637,0.848,lorenz,0.262,bootstrap
+04-december-modern_phobias_(original_mix).mp3,unknown,neutral,1.0,0.438,0.708,0.347,0.613,0.848,lorenz,0.257,bootstrap
+04-james_shinra-1310clap_(original_mix).mp3,unknown,neutral,0.831,0.43,0.623,0.608,1.0,0.55,aizawa,0.786,bootstrap
+04-obscure_shape-broken_circle.mp3,unknown,energetic,1.0,0.78,0.75,0.602,0.699,0.848,thomas,0.424,bootstrap
+04-unklevon-type-u.mp3,unknown,energetic,1.0,0.779,0.749,0.599,0.893,0.848,thomas,0.419,bootstrap
+04. Slaves Of Sinus - Chaos (And Me).mp3,unknown,neutral,1.0,0.391,0.6,0.538,1.0,0.541,thomas,0.684,bootstrap
+04_IMSI Identified.mp3,unknown,neutral,1.0,0.462,0.726,0.439,0.911,0.817,thomas,0.417,bootstrap
+05 - It Ain’t Easy.mp3,unknown,calm,0.232,0.651,0.46,0.618,0.766,0.433,dejong,0.584,bootstrap
+05 - N.I.B..mp3,unknown,energetic,1.0,0.824,0.817,0.592,0.975,0.968,lorenz,0.36,bootstrap
+05 -pearls girl.mp3,unknown,calm,0.259,0.617,0.469,0.339,0.236,0.629,chladni,0.06,bootstrap
+05 Budo.flac,unknown,neutral,0.535,0.343,0.498,0.403,0.7,0.507,chladni,0.464,bootstrap
+05 I Might Be Wrong.mp3,unknown,neutral,1.0,0.335,0.571,0.257,0.739,0.681,chladni,0.179,bootstrap
+05 Phuture 2.mp3,unknown,neutral,1.0,0.505,0.768,0.546,0.937,0.817,thomas,0.587,bootstrap
+05 Punk Navsegda.mp3,unknown,neutral,1.0,0.4,0.636,0.42,0.822,0.681,thomas,0.439,bootstrap
+05-Magny.mp3,unknown,energetic,1.0,0.672,0.635,0.363,0.539,0.817,lorenz,0.054,bootstrap
+05-juri-jah_-_darcknes.mp3,unknown,neutral,1.0,0.441,0.705,0.386,0.717,0.817,lorenz,0.332,bootstrap
+05-obscure_shape-instinct.mp3,unknown,neutral,1.0,0.402,0.666,0.289,0.591,0.817,lorenz,0.176,bootstrap
+05. Galaxian - Private Tyranny.mp3,unknown,neutral,1.0,0.36,0.593,0.337,0.725,0.664,chladni,0.314,bootstrap
+05_City Satellites.mp3,unknown,neutral,0.984,0.556,0.816,0.681,1.0,0.809,aizawa,0.805,bootstrap
+05_futurhythm_-_phuture_2-drum.mp3,unknown,neutral,0.917,0.48,0.727,0.517,0.864,0.775,thomas,0.554,bootstrap
+06 - Iron Man.mp3,unknown,calm,1.0,0.647,0.551,0.599,1.0,0.519,dejong,0.551,bootstrap
+06 - Lady Stardust.mp3,unknown,neutral,0.375,0.586,0.414,0.453,0.546,0.45,chladni,0.32,bootstrap
+06 - The Eve (James Ruskin Remix).mp3,unknown,neutral,1.0,0.531,0.8,0.579,0.799,0.848,thomas,0.627,bootstrap
+06 Deception.flac,unknown,neutral,0.767,0.341,0.528,0.383,0.741,0.548,chladni,0.424,bootstrap
+06 Knives Out.mp3,unknown,neutral,1.0,0.365,0.592,0.378,0.722,0.635,chladni,0.391,bootstrap
+06 Lumpy Oatmeal.mp3,unknown,aggressive,1.0,0.379,0.642,0.23,0.555,0.817,lorenz,0.081,bootstrap
+06-Planting Seeds (Tears of Life).mp3,unknown,neutral,0.399,0.525,0.349,0.335,0.308,0.418,waveform,0.146,bootstrap
+06-k-h1-moroz.mp3,unknown,neutral,1.0,0.418,0.687,0.296,0.597,0.848,lorenz,0.175,bootstrap
+06-mac_declos_and_anetha-push_push.mp3,unknown,neutral,1.0,0.464,0.74,0.376,0.855,0.883,lorenz,0.288,bootstrap
+06-seigg-secondary_options.mp3,unknown,neutral,1.0,0.408,0.678,0.271,0.572,0.848,lorenz,0.135,bootstrap
+06-tronikhouse-uptempo-justify_int.mp3,unknown,neutral,1.0,0.507,0.77,0.55,0.902,0.817,thomas,0.593,bootstrap
+06-violet_micro_-_...i_know.mp3,unknown,calm,0.705,0.672,0.583,0.45,0.514,0.701,chladni,0.228,bootstrap
+06. Blackmass Plastics - Holy Handgrenade.mp3,unknown,neutral,1.0,0.438,0.675,0.515,1.0,0.681,thomas,0.592,bootstrap
+06_My Enemy.mp3,unknown,neutral,1.0,0.484,0.754,0.462,0.811,0.848,thomas,0.44,bootstrap
+07 - End of the Beginning.mp3,unknown,aggressive,1.0,0.4,0.627,0.465,1.0,0.635,thomas,0.529,bootstrap
+07 - Star.mp3,unknown,energetic,1.0,0.771,0.735,0.611,0.979,0.817,thomas,0.452,bootstrap
+07 Godchild.flac,unknown,neutral,0.822,0.297,0.486,0.293,0.671,0.532,chladni,0.289,bootstrap
+07 Morning Bell Amnesiac.mp3,unknown,neutral,1.0,0.581,0.483,0.447,0.819,0.506,chladni,0.313,bootstrap
+07-Are We There Yet.mp3,unknown,neutral,0.335,0.523,0.334,0.356,0.344,0.385,waveform,0.189,bootstrap
+07-cucarafa--reservado-201214a2.mp3,unknown,neutral,1.0,0.409,0.679,0.274,0.579,0.848,lorenz,0.14,bootstrap
+07. Volruptus - We Are the Cyborgs.mp3,unknown,aggressive,1.0,0.379,0.603,0.426,0.699,0.621,thomas,0.474,bootstrap
+08 - 100M Splutter.mp3,unknown,neutral,1.0,0.449,0.707,0.435,0.873,0.788,thomas,0.421,bootstrap
+08 - Fairies Wear Boots.mp3,unknown,neutral,1.0,0.499,0.768,0.499,1.0,0.848,thomas,0.498,bootstrap
+08 - Hang On to Yourself.mp3,unknown,energetic,1.0,0.886,0.879,0.746,1.0,0.968,thomas,0.607,bootstrap
+08 Boplicity.flac,unknown,neutral,0.637,0.536,0.369,0.459,0.667,0.345,chladni,0.382,bootstrap
+08 Dollars And Cents.mp3,unknown,neutral,1.0,0.459,0.729,0.4,0.71,0.848,lorenz,0.341,bootstrap
+08 X-102 - Mimas.mp3,unknown,neutral,0.527,0.523,0.342,0.431,0.577,0.33,harmonograph,0.338,bootstrap
+08-endlec-no_return.mp3,unknown,energetic,1.0,0.728,0.698,0.472,0.61,0.848,lorenz,0.217,bootstrap
+08-pfirter-war_and_greed.mp3,unknown,neutral,1.0,0.469,0.733,0.457,0.674,0.817,thomas,0.445,bootstrap
+09 - God Is Dead.mp3,unknown,neutral,1.0,0.41,0.658,0.386,0.934,0.74,lorenz,0.362,bootstrap
+09 - Ziggy Stardust.mp3,unknown,energetic,0.621,0.778,0.687,0.674,1.0,0.733,thomas,0.57,bootstrap
+09 Hunting Bears.mp3,unknown,neutral,0.571,0.508,0.335,0.374,0.641,0.352,harmonograph,0.241,bootstrap
+09 Rocker.flac,unknown,neutral,0.687,0.319,0.493,0.342,0.657,0.525,chladni,0.366,bootstrap
+09-jeff_mills_-_changes_of_life.mp3,unknown,energetic,0.481,0.789,0.686,0.681,1.0,0.741,thomas,0.572,bootstrap
+09_vein_melter_-_hypnotyzed-drum.mp3,unknown,energetic,0.849,0.679,0.612,0.441,0.534,0.741,lorenz,0.203,bootstrap
+1 KUSS - There's Touch.mp3,unknown,neutral,0.52,0.401,0.574,0.446,0.827,0.608,chladni,0.49,bootstrap
+1-02 - Club classics.mp3,unknown,neutral,1.0,0.504,0.773,0.511,1.0,0.848,thomas,0.518,bootstrap
+1-03 - Sympathy is a knife.mp3,unknown,calm,0.868,0.684,0.581,0.641,1.0,0.555,dejong,0.597,bootstrap
+1-03 Land of Mu.mp3,unknown,neutral,1.0,0.341,0.584,0.234,0.541,0.718,chladni,0.127,bootstrap
+1-03 MC Loops.mp3,unknown,energetic,1.0,0.755,0.699,0.67,0.909,0.718,thomas,0.584,bootstrap
+1-04 - I might say something stupid.mp3,unknown,calm,1.0,0.628,0.546,0.484,0.941,0.586,chladni,0.341,bootstrap
+1-05 - Talk talk.mp3,unknown,neutral,1.0,0.367,0.571,0.499,1.0,0.519,dejong,0.631,bootstrap
+1-06 - Von dutch.mp3,unknown,neutral,0.698,0.456,0.653,0.572,1.0,0.637,thomas,0.688,bootstrap
+1-07 - Everything is romantic.mp3,unknown,neutral,0.798,0.348,0.555,0.311,0.733,0.639,chladni,0.274,bootstrap
+1-08 - Rewind.mp3,unknown,energetic,1.0,0.705,0.629,0.641,1.0,0.621,thomas,0.576,bootstrap
+1-09 - So I.mp3,unknown,energetic,1.0,0.696,0.644,0.501,0.795,0.74,lorenz,0.305,bootstrap
+"1-10 - Girl, so confusing.mp3",unknown,calm,1.0,0.647,0.564,0.531,0.926,0.586,chladni,0.415,bootstrap
+1-11 - Apple.mp3,unknown,energetic,1.0,0.738,0.69,0.582,0.824,0.762,thomas,0.427,bootstrap
+1-12 - B2b.mp3,unknown,neutral,1.0,0.415,0.663,0.397,0.728,0.74,lorenz,0.38,bootstrap
+1-13 - Mean girls.mp3,unknown,neutral,1.0,0.331,0.539,0.386,0.985,0.541,chladni,0.441,bootstrap
+1-14 - I think about it all the time.mp3,unknown,energetic,1.0,0.75,0.703,0.613,0.959,0.762,thomas,0.475,bootstrap
+1-15 - 365.mp3,unknown,energetic,1.0,0.714,0.672,0.497,0.743,0.788,lorenz,0.279,bootstrap
+10 - Sabbath Bloody Sabbath (Intro) - Paranoid.mp3,unknown,neutral,1.0,0.376,0.596,0.443,1.0,0.598,dejong,0.511,bootstrap
+10 - Suffragette City.mp3,unknown,neutral,0.517,0.393,0.559,0.458,0.866,0.575,dejong,0.523,bootstrap
+10 Israel.flac,unknown,neutral,0.838,0.325,0.514,0.367,0.841,0.528,chladni,0.41,bootstrap
+10 Like Spinning Plates.mp3,unknown,neutral,1.0,0.458,0.728,0.396,0.796,0.848,lorenz,0.335,bootstrap
+103 Static Drum - External.mp3,unknown,calm,0.42,0.719,0.573,0.682,0.869,0.558,dejong,0.645,bootstrap
+10_voov_-_its_anything_you_want_it_to_be_and_its_a_gas_(smoke_machine_v2)-drum.mp3,unknown,energetic,0.666,0.845,0.778,0.746,1.0,0.833,thomas,0.648,bootstrap
+11 - Rock ’n’ Roll Suicide.mp3,unknown,neutral,0.292,0.497,0.259,0.506,0.678,0.165,harmonograph,0.515,bootstrap
+11 Life In A Glass House.mp3,unknown,neutral,0.422,0.393,0.554,0.431,0.86,0.594,chladni,0.469,bootstrap
+11 Rouge.flac,unknown,calm,0.992,0.657,0.579,0.523,0.884,0.617,chladni,0.39,bootstrap
+11-3phase_-_current_1.mp3,unknown,neutral,0.269,0.415,0.568,0.43,0.854,0.634,chladni,0.444,bootstrap
+12 Darn That Dream.flac,unknown,neutral,0.687,0.389,0.596,0.35,0.679,0.692,chladni,0.311,bootstrap
+12. Galaxian - Glasgow to Detroit.mp3,unknown,neutral,0.642,0.427,0.632,0.428,0.726,0.704,thomas,0.428,bootstrap
+13-ignez-rio_with_you-tr.mp3,unknown,neutral,0.861,0.412,0.654,0.337,0.616,0.779,lorenz,0.261,bootstrap
+13. SolarX - Bionic Man.mp3,unknown,neutral,0.338,0.45,0.218,0.39,0.826,0.169,harmonograph,0.329,bootstrap
+15 Privacy - Broke.mp3,unknown,neutral,0.942,0.531,0.783,0.634,1.0,0.788,aizawa,0.737,bootstrap
+15. O-Wells - Park Jit.mp3,unknown,melancholic,0.514,0.239,0.355,0.325,0.775,0.324,chladni,0.412,bootstrap
+16. Privacy - Go.mp3,unknown,neutral,1.0,0.321,0.535,0.336,0.758,0.567,chladni,0.352,bootstrap
+17. Morah & Hauff - Segment 3.mp3,unknown,neutral,1.0,0.362,0.595,0.341,0.74,0.664,chladni,0.319,bootstrap
+190829_Dark_Forces_Original_Mix.mp3,unknown,aggressive,0.932,0.375,0.624,0.247,0.6,0.783,lorenz,0.119,bootstrap
+2 LYRIC - LUNA.mp3,unknown,neutral,1.0,0.403,0.666,0.291,0.563,0.817,lorenz,0.179,bootstrap
+2-03 Juan Atkins.mp3,unknown,calm,1.0,0.65,0.558,0.585,0.804,0.541,dejong,0.519,bootstrap
+20. Subtopia - The Mob Rules (Umwelt Remix).mp3,unknown,neutral,0.785,0.441,0.661,0.472,1.0,0.709,thomas,0.502,bootstrap
+21. L.F.T. - Data Move.mp3,unknown,calm,1.0,0.618,0.525,0.512,0.956,0.533,chladni,0.407,bootstrap
+22. QDT - Untitled.mp3,unknown,neutral,1.0,0.538,0.815,0.561,1.0,0.883,thomas,0.585,bootstrap
+23-rustal_and_offtrack-is_it_morning_yet_(late_nite_mix).mp3,unknown,energetic,1.0,0.752,0.722,0.532,0.669,0.848,lorenz,0.311,bootstrap
+25. Shedbug - Sibelle.mp3,unknown,neutral,1.0,0.403,0.666,0.29,0.655,0.817,lorenz,0.177,bootstrap
+25_juicy_romance_-_hummer.mp3,unknown,calm,1.0,0.638,0.568,0.447,0.602,0.649,chladni,0.255,bootstrap
+45. Nene H - Hush Now (VTSS Remix).mp3,unknown,energetic,1.0,0.712,0.682,0.432,0.575,0.848,lorenz,0.152,bootstrap
+4A - Zeta Reticula-Reticulum.mp3,unknown,calm,1.0,0.633,0.555,0.474,0.724,0.609,chladni,0.314,bootstrap
+AC-DC - High Voltage - 01 - It's a Long Way to the Top (If You Wanna Rock 'n' Roll).ogg,unknown,energetic,0.783,0.707,0.627,0.537,0.904,0.708,lorenz,0.366,bootstrap
+AC-DC - High Voltage - 02 - Rock 'n' Roll Singer.ogg,unknown,energetic,0.777,0.719,0.632,0.598,1.0,0.677,thomas,0.477,bootstrap
+AC-DC - High Voltage - 03 - The Jack.ogg,unknown,neutral,0.894,0.368,0.595,0.323,0.654,0.687,chladni,0.278,bootstrap
+AC-DC - High Voltage - 04 - Live Wire !.ogg,unknown,neutral,0.753,0.529,0.403,0.299,0.46,0.498,chladni,0.069,bootstrap
+AC-DC - High Voltage - 05 - TNT !.ogg,unknown,energetic,0.913,0.709,0.644,0.545,1.0,0.719,lorenz,0.381,bootstrap
+AC-DC - High Voltage - 06 - Can I Sit Next To You Girl !.ogg,unknown,neutral,0.853,0.419,0.647,0.417,0.935,0.715,thomas,0.415,bootstrap
+AC-DC - High Voltage - 07 - Little Lover.ogg,unknown,calm,0.868,0.666,0.576,0.538,0.805,0.615,chladni,0.41,bootstrap
+AC-DC - High Voltage - 08 - She's Got Balls.ogg,unknown,neutral,0.605,0.333,0.502,0.35,0.794,0.542,chladni,0.367,bootstrap
+AC-DC - High Voltage - 09 - High Voltage.ogg,unknown,energetic,0.69,0.708,0.61,0.578,0.951,0.662,thomas,0.448,bootstrap
+ANNA & Miss Kittin - Forever Ravers.mp3,unknown,neutral,1.0,0.412,0.67,0.342,0.581,0.788,lorenz,0.272,bootstrap
+ANNA - High Contrast (Original Mix) - 5A - 130.mp3,unknown,melancholic,0.239,0.207,0.291,0.24,0.553,0.3,harmonograph,0.273,bootstrap
+ANNA - Phase Two  [Drumcode].mp3,unknown,neutral,1.0,0.401,0.658,0.314,0.568,0.788,lorenz,0.226,bootstrap
+Abstract Division - Floating Point (Delta Funktionen Remix).mp3,unknown,energetic,1.0,0.679,0.637,0.41,0.578,0.788,lorenz,0.14,bootstrap
+Abstract Division - Floating Point (Original Mix).mp3,unknown,aggressive,1.0,0.384,0.641,0.271,0.559,0.788,lorenz,0.158,bootstrap
+Alborythme - Come Back To Me.mp3,unknown,calm,1.0,0.62,0.56,0.352,0.53,0.699,chladni,0.084,bootstrap
+Alfredo Mazzilli - Controlling (Original Mix) [Planet Rhythm].mp3,unknown,aggressive,1.0,0.39,0.654,0.259,0.56,0.817,lorenz,0.128,bootstrap
+AnD - On The Fucking Edge (Original Mix).mp3,unknown,neutral,0.653,0.432,0.633,0.471,1.0,0.675,thomas,0.511,bootstrap
+Ancient Methods - Knights & Bishops.mp3,unknown,neutral,1.0,0.409,0.666,0.334,0.627,0.788,lorenz,0.258,bootstrap
+Angelov - Invedi (Original Mix).mp3,unknown,neutral,0.377,0.558,0.386,0.382,0.456,0.451,chladni,0.207,bootstrap
+Angelov - Retrida.mp3,unknown,melancholic,0.327,0.27,0.387,0.281,0.574,0.426,chladni,0.293,bootstrap
+Animistic Beliefs - An Eye for A.I. (Mixed).mp3,unknown,neutral,1.0,0.488,0.765,0.437,0.877,0.883,lorenz,0.386,bootstrap
+Antigone and Rodhad - 1807021.mp3,unknown,neutral,1.0,0.418,0.682,0.329,0.712,0.817,lorenz,0.241,bootstrap
+Artbat - Element .mp3,unknown,calm,0.438,0.692,0.565,0.532,0.808,0.642,chladni,0.373,bootstrap
+B1 Public Energy - P.A..mp3,unknown,neutral,0.634,0.552,0.772,0.658,1.0,0.785,aizawa,0.764,bootstrap
+BIRI - Sun Cure [Non Series].mp3,unknown,energetic,1.0,0.75,0.743,0.406,0.556,0.968,lorenz,0.062,bootstrap
+BLANKA (ES) - La Buena Suerte (Original Mix).mp3,unknown,neutral,1.0,0.268,0.476,0.229,0.624,0.541,chladni,0.19,bootstrap
+Barker & Baumecker - Cipher ss.mp3,unknown,neutral,0.481,0.567,0.421,0.336,0.398,0.529,chladni,0.105,bootstrap
+Bidoben - Sans Soleil (Original Mix).mp3,unknown,neutral,1.0,0.411,0.681,0.28,0.587,0.848,lorenz,0.149,bootstrap
+Binaryh - Apus [Hiato Music].mp3,unknown,neutral,1.0,0.346,0.598,0.202,0.58,0.762,chladni,0.059,bootstrap
+Blackmass Plastics - Holy Handgrenade (Mixed).mp3,unknown,energetic,1.0,0.719,0.652,0.633,1.0,0.664,thomas,0.547,bootstrap
+Boston 168 - Oblivion.mp3,unknown,neutral,0.199,0.296,0.42,0.237,0.392,0.523,chladni,0.178,bootstrap
+Cadency - In Your Mind.mp3,unknown,aggressive,1.0,0.388,0.652,0.254,0.595,0.817,lorenz,0.12,bootstrap
+"CamelPhat, Yannis, Foals - Hypercolour (Mind Against Remix).mp3",unknown,neutral,1.0,0.411,0.664,0.366,0.587,0.762,lorenz,0.32,bootstrap
+Cardao - Mystic Bell (Original Mix).mp3,unknown,aggressive,1.0,0.398,0.625,0.46,0.738,0.635,thomas,0.522,bootstrap
+Chlär - Forgot to Dream (Original Mix).mp3,unknown,melancholic,0.587,0.248,0.395,0.237,0.591,0.442,chladni,0.226,bootstrap
+Cyan85 - Drama Bass.mp3,unknown,neutral,1.0,0.445,0.672,0.579,1.0,0.635,aizawa,0.713,bootstrap
+DAVE CLARKE feat CHICKS ON SPEED - What Was Her Name (OGONEK bootleg Remix).mp3,unknown,aggressive,1.0,0.379,0.603,0.427,0.858,0.621,thomas,0.474,bootstrap
+DJ Daddy Trance - My Body Rocks The Rhythm.mp3,unknown,neutral,1.0,0.459,0.695,0.566,1.0,0.681,thomas,0.673,bootstrap
+DL-MS- - Halo - 02 _이 기쁨.flac,unknown,neutral,1.0,0.458,0.721,0.428,0.781,0.817,lorenz,0.397,bootstrap
+DL-MS- - Halo - 03 IC-1101.flac,unknown,neutral,1.0,0.507,0.77,0.55,1.0,0.817,thomas,0.594,bootstrap
+DL-MS- - Halo - 04 Play With Us.flac,unknown,neutral,0.849,0.4,0.623,0.399,0.793,0.687,lorenz,0.397,bootstrap
+DL-MS- - Halo - 06 S.I.T.G.flac,unknown,energetic,1.0,0.73,0.688,0.537,0.77,0.788,lorenz,0.345,bootstrap
+DYEN - Tell You What I Know (Original mix).mp3,unknown,energetic,1.0,0.727,0.697,0.469,0.67,0.848,lorenz,0.212,bootstrap
+Dagga - Inert Hologram 01 Inert Hologram [JPT010].mp3,unknown,neutral,1.0,0.441,0.705,0.386,0.841,0.817,lorenz,0.332,bootstrap
+Dagga - Inert Hologram 02 Asfixia [JPT010].mp3,unknown,neutral,1.0,0.351,0.559,0.436,0.994,0.541,dejong,0.521,bootstrap
+Dagga - Inert Hologram 03 El Pasajero [JPT010].mp3,unknown,neutral,1.0,0.362,0.587,0.385,0.759,0.621,chladni,0.407,bootstrap
+Dagga - Inert Hologram 04 Fields of Data [JPT010].mp3,unknown,neutral,1.0,0.409,0.667,0.334,0.65,0.788,lorenz,0.26,bootstrap
+Dagga - Inert Hologram 05 Ahogado [JPT010].mp3,unknown,neutral,1.0,0.36,0.567,0.467,1.0,0.533,dejong,0.574,bootstrap
+Dagga X Manao - DXM - Pool Edits Vol.1 - 09 Open Sesame.mp3,unknown,neutral,1.0,0.484,0.754,0.462,0.875,0.848,thomas,0.441,bootstrap
+Dagga X Manao - Open Sesame.mp3,unknown,neutral,1.0,0.484,0.754,0.462,0.875,0.848,thomas,0.441,bootstrap
+Dagga X Manao - RJ Tool.mp3,unknown,calm,0.698,0.716,0.585,0.762,1.0,0.498,dejong,0.807,bootstrap
+Deborah De Luca - Dori Me (intro mix).mp3,unknown,neutral,0.945,0.43,0.677,0.409,0.967,0.761,lorenz,0.389,bootstrap
+Demuja - Loose Legs.mp3,unknown,aggressive,1.0,0.395,0.643,0.348,0.773,0.74,lorenz,0.3,bootstrap
+Diffuse Reality Records - Bez Obaw.mp3,unknown,energetic,1.0,0.679,0.643,0.382,0.549,0.817,lorenz,0.085,bootstrap
+Donato Dozzy - Parola featuring Anna Caragnano (Rework) [Spazio Disponibile].mp3,unknown,neutral,0.433,0.498,0.302,0.385,0.458,0.303,waveform,0.273,bootstrap
+Dusty Kid - Psika.mp3,unknown,neutral,0.297,0.33,0.483,0.238,0.437,0.616,chladni,0.147,bootstrap
+EMBARGO - EMBARGO - CLUB MIX [1999].mp3,unknown,aggressive,1.0,0.378,0.641,0.227,0.57,0.817,lorenz,0.077,bootstrap
+EMS - Synchronaut - 10 - Crack In The Sun.mp3,unknown,energetic,0.913,0.714,0.66,0.502,0.614,0.773,lorenz,0.291,bootstrap
+Eduardo De La Calle - Aitareya (Original Mix) [Electropical Record].mp3,unknown,neutral,1.0,0.408,0.665,0.331,0.904,0.788,lorenz,0.254,bootstrap
+Ellen Allien - Bowie in Harmony.mp3,unknown,aggressive,1.0,0.369,0.627,0.234,0.549,0.788,lorenz,0.099,bootstrap
+Ellen Allien - True Romantics (Hadone Remix).mp3,unknown,neutral,0.935,0.491,0.747,0.505,1.0,0.816,thomas,0.519,bootstrap
+Ellen Allien - Xtc.mp3,unknown,neutral,1.0,0.434,0.698,0.369,0.642,0.817,lorenz,0.303,bootstrap
+FJAAK - Pal.mp3,unknown,aggressive,1.0,0.394,0.657,0.268,0.549,0.817,lorenz,0.143,bootstrap
+Fabio Florido - Timeless (Original Mix).mp3,unknown,neutral,0.458,0.339,0.484,0.403,0.526,0.491,chladni,0.467,bootstrap
+Function - Against The Wall.mp3,unknown,aggressive,1.0,0.362,0.62,0.217,0.553,0.788,lorenz,0.072,bootstrap
+Function - Binaural.mp3,unknown,aggressive,1.0,0.352,0.605,0.218,0.574,0.762,lorenz,0.084,bootstrap
+Function - Burn (original mix).mp3,unknown,neutral,0.226,0.525,0.29,0.525,0.57,0.21,harmonograph,0.526,bootstrap
+Function - Disaffected (Original Mix).mp3,unknown,aggressive,1.0,0.372,0.629,0.241,0.536,0.788,lorenz,0.11,bootstrap
+Förm - KR012 - 03 Sleeping With Ghosts.wav,unknown,neutral,1.0,0.526,0.796,0.567,0.931,0.848,thomas,0.608,bootstrap
+Förm - KR012 - 04 Spooky Scary Skeletons.wav,unknown,neutral,0.046,0.346,0.424,0.498,1.0,0.371,dejong,0.649,bootstrap
+Galaxian - Glasgow to Detroit (Mixed).mp3,unknown,neutral,0.946,0.514,0.78,0.523,0.959,0.856,thomas,0.532,bootstrap
+Galaxian - Private Tyranny (Mixed).mp3,unknown,aggressive,1.0,0.399,0.632,0.433,0.892,0.664,thomas,0.467,bootstrap
+Gegen Dungeon - Chemtrailz (Amuck Remix).mp3,unknown,energetic,1.0,0.735,0.704,0.488,0.598,0.848,lorenz,0.242,bootstrap
+Hadone - Hope Reminds Me Of Her.mp3,unknown,neutral,0.487,0.314,0.481,0.243,0.515,0.592,chladni,0.171,bootstrap
+Hardfloor - Acperience 1.mp3,unknown,calm,0.812,0.614,0.529,0.349,0.444,0.668,chladni,0.083,bootstrap
+How Soon Is Now (Maceo Plex Edit).mp3,unknown,neutral,1.0,0.512,0.764,0.617,0.838,0.762,aizawa,0.721,bootstrap
+Hyden - Rhun (Jks Remix) [Smile Sessions].mp3,unknown,energetic,1.0,0.737,0.706,0.494,0.572,0.848,lorenz,0.25,bootstrap
+I Hate Models 'Sorrows Of The Moon' 01. Forest Spirits.mp3,unknown,neutral,1.0,0.428,0.691,0.353,0.632,0.817,lorenz,0.278,bootstrap
+I Hate Models - Daydream [ARTS020].mp3,unknown,energetic,1.0,0.691,0.655,0.411,0.552,0.817,lorenz,0.132,bootstrap
+I-Hate-Models-Sorrows-Of-The-Moon-Original-Mix-Arts.mp3,unknown,neutral,1.0,0.428,0.691,0.353,0.632,0.817,lorenz,0.279,bootstrap
+Introversion - force majeure.mp3,unknown,energetic,1.0,0.719,0.682,0.481,0.624,0.817,lorenz,0.242,bootstrap
+JKS - Express Yourself.mp3,unknown,neutral,0.497,0.434,0.603,0.538,0.87,0.597,thomas,0.641,bootstrap
+Jaquarius - Metamine (Mixed).mp3,unknown,calm,1.0,0.667,0.6,0.503,0.684,0.664,lorenz,0.339,bootstrap
+Jay Pei - Dark Horse.mp3,unknown,aggressive,1.0,0.358,0.611,0.233,0.583,0.762,lorenz,0.108,bootstrap
+Jon Hopkins - Singularity (ANNA Remix).mp3,unknown,neutral,0.67,0.37,0.562,0.369,0.647,0.623,chladni,0.368,bootstrap
+Kaiserdisco - Taipan (Original Mix).mp3,unknown,neutral,1.0,0.425,0.683,0.374,0.696,0.788,lorenz,0.323,bootstrap
+Kakoon - Skylight [Alaula Music].mp3,unknown,calm,0.289,0.739,0.55,0.869,1.0,0.407,dejong,1.0,bootstrap
+Kangding Ray - De Tomaso Pantera.mp3,unknown,neutral,1.0,0.435,0.698,0.371,0.682,0.817,lorenz,0.306,bootstrap
+Karenn - On Request.mp3,unknown,neutral,0.218,0.322,0.428,0.4,0.608,0.426,chladni,0.479,bootstrap
+Kawasaki (Original Mix).mp3,unknown,aggressive,1.0,0.392,0.65,0.292,0.603,0.788,lorenz,0.193,bootstrap
+Kazuya Nagaya - Thanatos (Dubfire Remix).mp3,unknown,aggressive,1.0,0.373,0.637,0.216,0.539,0.817,lorenz,0.06,bootstrap
+Keith Carnal - Rijwiel (Original Mix) - 3A - 129.mp3,unknown,aggressive,1.0,0.36,0.617,0.211,0.54,0.788,lorenz,0.062,bootstrap
+Kettama - Body.mp3,unknown,neutral,1.0,0.537,0.794,0.654,1.0,0.788,aizawa,0.77,bootstrap
+Kettama - Higher (Steel City Power House).mp3,unknown,neutral,0.718,0.448,0.649,0.544,1.0,0.647,thomas,0.639,bootstrap
+Kiko And Gino - Estasi.mp3,unknown,neutral,1.0,0.468,0.721,0.508,1.0,0.762,thomas,0.549,bootstrap
+"Klanglos - Nothing Can Save You, Accept Darkness (Original Mix).mp3",unknown,calm,0.349,0.641,0.468,0.574,1.0,0.463,dejong,0.507,bootstrap
+Lmajor - Hallucin8 (Original Mix).mp3,unknown,neutral,0.762,0.412,0.604,0.526,1.0,0.58,thomas,0.641,bootstrap
+Loek Frey - Arcana.mp3,unknown,melancholic,0.679,0.197,0.348,0.144,0.408,0.416,waveform,0.091,bootstrap
+Lucas Sosa (AR) - Lucifer.mp3,unknown,neutral,1.0,0.417,0.687,0.294,0.574,0.848,lorenz,0.171,bootstrap
+"Luigi Madonna, Roberto Capuano - Midfield (Original Mix).mp3",unknown,calm,1.0,0.645,0.598,0.35,0.545,0.762,chladni,0.055,bootstrap
+MELD - Bolam - Break Yo' Self (MELD002) - 01 Break Yo' Self.mp3,unknown,calm,0.559,0.65,0.525,0.485,0.685,0.596,chladni,0.319,bootstrap
+Machino - Ministerio (Mixed).mp3,unknown,neutral,1.0,0.36,0.587,0.366,0.7,0.635,chladni,0.372,bootstrap
+Mall Grab - Elegy.mp3,unknown,aggressive,1.0,0.355,0.607,0.225,0.55,0.762,lorenz,0.095,bootstrap
+Mall Grab - Positive Energy Forever.mp3,unknown,neutral,0.966,0.262,0.464,0.228,0.692,0.524,chladni,0.194,bootstrap
+Mall Grab - Sheer Fuck-Offness.mp3,unknown,neutral,1.0,0.565,0.828,0.695,1.0,0.817,aizawa,0.826,bootstrap
+Mall Grab - Strangers - 02 -.mp3,unknown,neutral,0.658,0.34,0.515,0.368,1.0,0.547,chladni,0.397,bootstrap
+Mall Grab - Temperature Rising.mp3,unknown,neutral,1.0,0.495,0.758,0.521,0.943,0.817,thomas,0.547,bootstrap
+Marcal - Ainozama [www.slider.kz].mp3,unknown,neutral,1.0,0.403,0.666,0.29,0.561,0.817,lorenz,0.178,bootstrap
+Marcel Dettmann - Phantom Studies.mp3,unknown,neutral,0.181,0.416,0.156,0.349,0.399,0.11,waveform,0.282,bootstrap
+Mark Reeve - Golden (Original Mix) .mp3,unknown,neutral,1.0,0.431,0.689,0.39,0.688,0.788,lorenz,0.349,bootstrap
+Melawati - Daliah (Maceo Plex Remix).mp3,unknown,neutral,1.0,0.419,0.677,0.359,0.599,0.788,lorenz,0.299,bootstrap
+Michael Klein - Ponzu (Industrialyzer Remix).mp3,unknown,neutral,1.0,0.434,0.698,0.369,0.663,0.817,lorenz,0.305,bootstrap
+Michael Klein - Superstition (oliver deutschmann remix).mp3,unknown,energetic,1.0,0.715,0.679,0.471,0.671,0.817,lorenz,0.228,bootstrap
+Mike Parker - Living Colossus.mp3,unknown,neutral,1.0,0.514,0.784,0.536,1.0,0.848,thomas,0.559,bootstrap
+Minotia - I Hate Models & Anetha T.mp3,unknown,neutral,0.152,0.407,0.137,0.356,0.706,0.076,harmonograph,0.306,bootstrap
+Moby - My Only Love (Tale Of Us & Anyma Remix).mp3,unknown,neutral,1.0,0.424,0.677,0.398,0.648,0.762,lorenz,0.371,bootstrap
+Moby - Tecie (Mind Against Celestial Mix) - www.djsoundtop.com.mp3,unknown,aggressive,1.0,0.394,0.612,0.5,1.0,0.586,thomas,0.605,bootstrap
+Oona Dahl - Godtripper (Patrice Baumel Psychoactive Rework) [Watergate Records].mp3,unknown,aggressive,1.0,0.399,0.651,0.335,0.795,0.762,lorenz,0.271,bootstrap
+Patrice Bäumel - Roar (Adana Twins Remix - mixed).mp3,unknown,energetic,1.0,0.725,0.677,0.55,0.741,0.762,lorenz,0.375,bootstrap
+Patrick Milaa - Presence of Mind (Original Mix).mp3,unknown,aggressive,1.0,0.387,0.645,0.279,0.558,0.788,lorenz,0.171,bootstrap
+Phara - In Dubio (Original Mix)-BeanOfTech.mp3,unknown,aggressive,1.0,0.388,0.652,0.254,0.545,0.817,lorenz,0.119,bootstrap
+Phara - In Dubio (Original Mix).mp3,unknown,aggressive,1.0,0.388,0.652,0.254,0.545,0.817,lorenz,0.119,bootstrap
+"Pjotr G, Dubiosity - A Man Is No Island (Original Mix) [Planet Rhythm].mp3",unknown,energetic,1.0,0.652,0.61,0.341,0.526,0.788,lorenz,0.031,bootstrap
+Planetary Assault Systems - Bang Wap.mp3,unknown,neutral,1.0,0.481,0.744,0.486,0.709,0.817,thomas,0.491,bootstrap
+Pleasurekraft - At the Mountains of Madness (Original Mix).mp3,unknown,calm,0.372,0.765,0.597,0.876,1.0,0.474,dejong,0.987,bootstrap
+Pryda - Mirage (Original Mix).mp3,unknown,neutral,0.608,0.356,0.536,0.36,0.88,0.592,chladni,0.363,bootstrap
+Push - Universal Nation (Bart Skils Remix) - 7A - 127.mp3,unknown,neutral,1.0,0.454,0.711,0.446,0.686,0.788,thomas,0.438,bootstrap
+Q.U.A.K.E & Aaron Suiss - Creation of Reality (Original Mix).mp3,unknown,calm,0.592,0.676,0.546,0.59,0.656,0.559,dejong,0.503,bootstrap
+RAW - RAW Summer Hits II - Special Edits - 05 JKS - Get Crackin'.mp3,unknown,neutral,1.0,0.322,0.532,0.356,0.696,0.549,chladni,0.39,bootstrap
+"Ramiro Lopez, Andres Campo - Pachamama (Coyu Raw Mix).mp3",unknown,energetic,1.0,0.736,0.694,0.551,0.616,0.788,lorenz,0.367,bootstrap
+Red Rooms - Sunbeams (Original Mix).mp3,unknown,neutral,1.0,0.331,0.574,0.209,0.545,0.718,chladni,0.086,bootstrap
+Reinier Zonneveld - Dance With The Devil (Original Mix).mp3,unknown,neutral,1.0,0.345,0.597,0.199,0.535,0.762,chladni,0.053,bootstrap
+Rohar Nerves viers Remix Off173.mp3,unknown,energetic,1.0,0.752,0.716,0.564,0.614,0.817,lorenz,0.376,bootstrap
+Roman Flügel - Pattern Four.mp3,unknown,neutral,1.0,0.452,0.716,0.414,0.672,0.817,lorenz,0.376,bootstrap
+Rosati - Bloody Cash (Original Mix).mp3,unknown,energetic,1.0,0.724,0.693,0.461,0.63,0.848,lorenz,0.198,bootstrap
+Rosati - Inside (Original Mix).mp3,unknown,neutral,1.0,0.518,0.788,0.547,0.938,0.848,thomas,0.576,bootstrap
+SHDW & Obscure Shape - Bisswunden (Introversion Version).wav.wav,unknown,energetic,1.0,0.692,0.655,0.413,0.602,0.817,lorenz,0.134,bootstrap
+SHXCXCHCXSH - Drain This Lord.mp3,unknown,neutral,0.502,0.525,0.33,0.493,0.951,0.27,harmonograph,0.461,bootstrap
+SNTS - Es19.1.mp3,unknown,aggressive,1.0,0.361,0.614,0.241,0.585,0.762,lorenz,0.12,bootstrap
+SNTS - Pvrest Absolvtion.mp3,unknown,neutral,1.0,0.453,0.717,0.417,0.662,0.817,lorenz,0.38,bootstrap
+Schwefelgelb - Fokus.mp3,unknown,neutral,0.8,0.415,0.633,0.429,1.0,0.688,thomas,0.443,bootstrap
+Second Skin - Bare Hands (Original Mix).mp3,unknown,calm,1.0,0.624,0.529,0.533,0.689,0.526,chladni,0.443,bootstrap
+Setaoc Mass - Silent Tension.mp3,unknown,calm,1.0,0.623,0.567,0.34,0.55,0.718,chladni,0.057,bootstrap
+Shlomo - Burned Hand Emmanuel Remix.mp3,unknown,neutral,0.32,0.567,0.388,0.4,0.325,0.448,chladni,0.234,bootstrap
+Shlomo - Vertigo.mp3,unknown,energetic,1.0,0.724,0.681,0.521,0.636,0.788,lorenz,0.318,bootstrap
+Si Begg - P1 Tek 2 Neu Anfang.mp3,unknown,aggressive,1.0,0.365,0.623,0.224,0.576,0.788,lorenz,0.084,bootstrap
+Sleeparchive - Papercup.mp3,unknown,aggressive,1.0,0.366,0.624,0.227,0.538,0.788,lorenz,0.088,bootstrap
+Sleeparchive -Glass.mp3,unknown,energetic,1.0,0.787,0.75,0.65,0.917,0.817,thomas,0.513,bootstrap
+Slv (De) - Far From The Madding (Original Mix).mp3,unknown,energetic,0.787,0.678,0.605,0.432,0.604,0.742,lorenz,0.185,bootstrap
+So 1992 (Original Mix).mp3,unknown,aggressive,1.0,0.397,0.654,0.304,0.587,0.788,lorenz,0.21,bootstrap
+Solee - Impressed (Rework) [Parquet Recordings].mp3,unknown,neutral,1.0,0.345,0.597,0.2,0.536,0.762,chladni,0.055,bootstrap
+Stef Mendesidis - Hunt.mp3,unknown,aggressive,1.0,0.389,0.653,0.256,0.605,0.817,lorenz,0.124,bootstrap
+Subtopia - The Mob Rules (Umwelt Remix) (Mixed).mp3,unknown,neutral,0.537,0.37,0.541,0.394,0.938,0.585,chladni,0.418,bootstrap
+Superintelligence (Clever Mix).mp3,unknown,neutral,0.298,0.555,0.344,0.519,0.716,0.298,harmonograph,0.483,bootstrap
+Swart - Death To The Quarantine.mp3,unknown,energetic,1.0,0.813,0.79,0.649,0.827,0.883,thomas,0.486,bootstrap
+Terence Fixmer - Aktion Mekanik Theme (44 Version) [ClapCrate.com].mp3,unknown,neutral,1.0,0.461,0.718,0.463,0.828,0.788,thomas,0.466,bootstrap
+Terence Fixmer - Body Pressure.mp3,unknown,aggressive,0.871,0.39,0.627,0.309,0.626,0.752,lorenz,0.229,bootstrap
+The Advent - High Horse (Original Mix).mp3,unknown,neutral,1.0,0.407,0.664,0.328,0.663,0.788,lorenz,0.249,bootstrap
+The Advent - Planting Seeds - 03 Scorched.mp3,unknown,neutral,1.0,0.49,0.79,0.324,0.611,1.0,lorenz,0.158,bootstrap
+The Nighttripper - Phuture (Robert Hood Remix).mp3,unknown,energetic,1.0,0.779,0.737,0.66,0.913,0.788,thomas,0.541,bootstrap
+This Hmming Raverie.mp3,unknown,energetic,1.0,0.703,0.661,0.469,0.633,0.788,lorenz,0.236,bootstrap
+Timo Maas feat. Rottler - Utopie (Murat Uncuoglu Remix).mp3,unknown,aggressive,1.0,0.382,0.634,0.292,0.629,0.762,lorenz,0.202,bootstrap
+"Timo Maas, Rottler - Utopie (Original Mix) - www.djsoundtop.com.mp3",unknown,neutral,0.487,0.38,0.53,0.492,1.0,0.506,dejong,0.604,bootstrap
+Truncate - First Phase.mp3,unknown,energetic,1.0,0.72,0.683,0.483,0.651,0.817,lorenz,0.246,bootstrap
+Turk Turkelton - Pony.mp3,unknown,neutral,1.0,0.476,0.712,0.609,1.0,0.681,aizawa,0.742,bootstrap
+Turk Turkelton Karaffe.mp3,unknown,neutral,1.0,0.533,0.802,0.584,1.0,0.848,thomas,0.634,bootstrap
+UVB - Mixtion ss.mp3,unknown,neutral,1.0,0.43,0.694,0.359,0.621,0.817,lorenz,0.288,bootstrap
+Unbalance - Warehouse Tool 1.mp3,unknown,aggressive,1.0,0.399,0.657,0.31,0.641,0.788,lorenz,0.221,bootstrap
+Under Black Helmet - Impulsive Behavior.mp3,unknown,energetic,1.0,0.658,0.616,0.357,0.552,0.788,lorenz,0.056,bootstrap
+Unwelt - Endless Blackness.mp3,unknown,melancholic,0.601,0.235,0.365,0.298,0.823,0.35,chladni,0.361,bootstrap
+Usaw - Runaway (Original Mix) [Usaw].mp3,unknown,neutral,1.0,0.417,0.686,0.293,0.56,0.848,lorenz,0.17,bootstrap
+Virtualmismo - Mismoplastico (Virtual Mix).mp3,unknown,neutral,1.0,0.434,0.692,0.397,0.772,0.788,lorenz,0.36,bootstrap
+Vizionn - Bang That Box.mp3,unknown,calm,1.0,0.639,0.572,0.434,0.596,0.664,chladni,0.228,bootstrap
+Vladimir Dubyshkin - Pigeon Epilepsy.mp3,unknown,energetic,1.0,0.707,0.67,0.45,0.559,0.817,lorenz,0.194,bootstrap
+Vril;Rødhåd - Apophenia.mp3,unknown,energetic,1.0,0.778,0.755,0.562,0.627,0.883,lorenz,0.346,bootstrap
+Waterfall.mp3,unknown,neutral,0.864,0.46,0.685,0.542,1.0,0.695,thomas,0.624,bootstrap
+Yamaha.mp3,unknown,neutral,0.381,0.549,0.378,0.358,0.354,0.453,chladni,0.168,bootstrap
+drfloyd.mp3,unknown,neutral,1.0,0.314,0.522,0.345,0.776,0.541,chladni,0.375,bootstrap
+jeff mills - reverting.mp3,unknown,energetic,1.0,0.798,0.761,0.677,0.848,0.817,thomas,0.557,bootstrap
+leinaD - FROM SKIMASK 2 FACEMASK EP - 03 leinaD - From Skimask 2 Facemask.mp3,unknown,neutral,1.0,0.28,0.493,0.233,0.729,0.567,chladni,0.186,bootstrap
+morganistic - 3 - it makes it.mp3,unknown,aggressive,0.977,0.381,0.64,0.245,0.584,0.805,lorenz,0.109,bootstrap
+wehbba-coup_of_doubt-323eb95a.mp3,unknown,neutral,0.578,0.303,0.477,0.239,0.498,0.577,chladni,0.175,bootstrap

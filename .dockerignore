@@ -1,0 +1,30 @@
+# The image needs the code, the frontend and one checkpoint. Nothing else.
+.git/
+.gitignore
+__pycache__/
+*.py[cod]
+
+# Local virtualenvs. .venv-clap also carries a sitecustomize.py working around this
+# machine's antivirus TLS interception, which must never reach the deployed backend.
+.venv*/
+venv/
+
+# Training data and corpora — inference needs none of it; the checkpoint encodes it.
+dataset/
+DEAM_audio/
+DEAM_Annotations/
+
+# Only the served checkpoint ships; the rest are ablation arms (~8 MB).
+trained_models/*
+!trained_models/visgen_cnn.pt
+
+# Not part of the running app.
+docs/
+tests/
+DEPLOY.md
+
+# Runtime/local state
+.env
+.vscode/
+.idea/
+.claude/

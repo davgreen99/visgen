@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.py[cod]
+# .venv is the 3.13 project environment; .venv-clap is a separate 3.11 one, needed because
+# laion-clap pins numpy 1.26.4 and that has no 3.13 wheel (see the CLAP notes in README).
+.venv*/
+venv/
+
+# NOTE: trained_models/visgen_cnn.pt IS committed on purpose — it's only ~1.7 MB and the
+# deployed backend needs it (the app refuses to analyse anything without the model).
+# The other checkpoints are the ablation arms behind the report's tables: worth keeping
+# locally as evidence, not worth committing at 1.6 MB each.
+trained_models/*
+!trained_models/visgen_cnn.pt
+
+# Generated spectrogram cache + raw audio (regenerate with: python -m server.dataset_builder)
+dataset/spectrograms/
+dataset/audio/
+dataset/embeddings/
+
+# DEAM corpus — 1.3 GB downloaded from cvml.unige.ch, not ours to redistribute.
+# server/deam.py reads it in place; see the ingest recipe in its docstring.
+DEAM_audio/
+DEAM_Annotations/
+
+# Local secrets
+.env
+
+# Editor / OS / agent tooling
+.vscode/
+.idea/
+.claude/
+.DS_Store
+Thumbs.db
+
+# Word lock files (created while a .docx is open)
+~$*
+
+# Local backups made before bulk edits
+*.BACKUP-*
