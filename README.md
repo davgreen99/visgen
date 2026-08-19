@@ -38,7 +38,7 @@ The project has two halves:
 
 >  `music-test/` holds a couple of tracks, so the app can be tried if you don't have any music to hand.
 
-![The controls panel and the visual output: a Chladni plate driven by a 129 BPM track](docs/screenshot.png)
+![The controls panel and the visual output](docs/screenshot.png)
 
 ### Visual formulas
 
