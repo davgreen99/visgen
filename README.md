@@ -12,8 +12,6 @@ pinned: false
 Upload a track, analyse its sonic characteristics, and render it as a live, one‑of‑a‑kind
 generative visual driven by tempo, frequency, and mood.
 
-> The YAML block above configures the Hugging Face Space (see DEPLOY.md).
-
 The trained AI model is the core of the project: every track is analysed by the CNN, and
 its prediction is what drives the visual. The browser only handles rendering and live playback reactivity; it never fabricates the analysis.
 
@@ -37,6 +35,11 @@ The project has two halves:
 4. Drag a layer in the output window to reposition it; double-click recentres it.
 5. Screenshot: saves a PNG of the current frame; Save: stores the current
    formulas + parameters + a thumbnail to the Gallery below. Click a saved card to see the track and parameters used, or choose "+ Add to visualizer" to restore it.
+
+> No music to hand? `music-test/` holds one track, so the app can be tried without
+> supplying your own.
+
+![The controls panel and the visual output: a Chladni plate driven by a 129 BPM track](docs/screenshot.png)
 
 ### Visual formulas
 
@@ -188,8 +191,10 @@ server/clap_embeddings.py  CLAP audio embeddings, disk-cached
 tests/test_masking.py      Guards the per-head label masking
 
 requirements.txt           Python dependencies
-Dockerfile, DEPLOY.md      Container and deployment guide
-dataset/                   Training audio, spectrograms, metadata.csv
+Dockerfile                 Container image (Hugging Face Spaces, or any Docker host)
+dataset/                   metadata.csv, plus the stage1-bootstrap and stage2-deam snapshots
 trained_models/            visgen_cnn.pt is the served checkpoint
+music-test/                One track, so the app can be tried without supplying your own
+docs/                      Visgen-documentation.pdf - build process, experiments, evaluation
 ```
 

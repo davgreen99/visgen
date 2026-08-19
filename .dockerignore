@@ -21,6 +21,7 @@ trained_models/*
 # Not part of the running app.
 docs/
 tests/
+music-test/
 DEPLOY.md
 
 # Runtime/local state

@@ -11,5 +11,6 @@ gunicorn>=21.0           # production WSGI server (used by the Dockerfile / depl
 
 # --- Optional: CLAP, for zero-shot labelling (server/clap_embeddings.py) ---
 # Deliberately not installed here: it downloads large model weights and nothing at inference
-# time needs it. It also requires its own Python 3.11 environment -- see DEPLOY.md part 8.
+# time needs it. It also requires its own Python 3.11 environment: laion-clap pins numpy
+# below 2, and that has no wheel for Python 3.13.
 #   pip install laion-clap torchvision

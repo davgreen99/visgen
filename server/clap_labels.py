@@ -6,9 +6,9 @@ suggestion, and this module is the integration it drafted. It also predicted, be
 the run, that style would be the weakest of the four heads, for the reason given at
 STYLE_PROMPTS below - which is why the class distribution was checked before
 retraining rather than after, and the only reason the collapse was caught.
-See section 9 of docs/Visgen-documentation.docx.
+See section 9 of docs/Visgen-documentation.pdf.
 
-Requires: pip install laion-clap (see DEPLOY.md part 2).
+Requires: pip install laion-clap, in its own Python 3.11 environment.
 Usage:    python -m server.clap_labels [--heads ...]
 """
 

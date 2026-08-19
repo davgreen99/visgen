@@ -1,4 +1,4 @@
-# Container for Hugging Face Spaces or any Docker host - see DEPLOY.md
+# Container for Hugging Face Spaces or any Docker host
 
 FROM python:3.11-slim
 

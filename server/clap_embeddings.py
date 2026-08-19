@@ -1,10 +1,10 @@
 """CLAP audio embeddings, disk-cached to dataset/embeddings/clap/<name>.npy.
 
 Feeds server/clap_labels.py and the `--trunk embedding` alternative.
-Requires `pip install laion-clap` (see DEPLOY.md part 2).
+Requires `pip install laion-clap` in its own Python 3.11 environment - see below.
 
 AI assistance (Claude, Anthropic): part of the CLAP integration Claude proposed and
-drafted - see server/clap_labels.py and section 9 of docs/Visgen-documentation.docx.
+drafted - see server/clap_labels.py and section 9 of docs/Visgen-documentation.pdf.
 The separate Python 3.11 environment is not optional: laion-clap pins NumPy below 2,
 which resolves to a release predating Python 3.13, so pip tries to build it from
 source. laion-clap also imports torchvision without declaring it.
@@ -47,7 +47,8 @@ def _load():
     except ImportError as exc:
         raise RuntimeError(
             f"CLAP isn't installed. Install it with:  pip install {MODULE.replace('_', '-')}\n"
-            "It needs its own Python 3.11 environment -- see DEPLOY.md part 2."
+            "It needs its own Python 3.11 environment: laion-clap pins numpy below 2,\n"
+            "and that has no wheel for Python 3.13."
         ) from exc
     _MODEL = module.CLAP_Module(enable_fusion=False)
     _MODEL.load_ckpt()
@@ -113,6 +114,7 @@ if __name__ == "__main__":
     import sys
 
     if not is_available():
-        print(f"CLAP not installed here. pip install {MODULE.replace('_', '-')} (see DEPLOY.md).")
+        print(f"CLAP not installed here. pip install {MODULE.replace('_', '-')} "
+              "in a separate Python 3.11 environment.")
         raise SystemExit(1)
     build_embeddings(audio_dir=sys.argv[1] if len(sys.argv) > 1 else None)
